@@ -124,7 +124,7 @@ To visualize the reward and loss as graphs, choose the `.npy` file created under
 - **Processor:** Intel(R) Core(TM) i7-10750H CPU @ 2.60GHz
 - **RAM:** 16GB
 
-## Experimetal Results
+## Experimental Results
 
 15 experiments are done in total by selecting best 15 configurations found by random search-based hyperparameter-tuning. Results of each experiment with 20 trials are provided under root project directory with naming convention `Experimental_Results_{experiment_number}.txt`. `Experimental_Results` directory under project root directory contains the experimental results which contains `model` subdirectory listing solved model files for each experiment. If directory for specific run is empty it means that no solved model was found for that experiment. Each `scores_run_{experiment_number}` directory contains the scores for rewards and losses for 20 tuning trials in given the specific experiment number. The `solved_model_plots` directory contains the `{experiment_number_in_text}_run` subdirectories each contais the plots for reward and loss graphs for runs that achieved 240+ reward. The `videos` directory contains the `run_{experiment_number}` folder that contains the .mp4 files for each solved model that simulates lunar lander landing.    
 

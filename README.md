@@ -2,7 +2,7 @@
 
 This project implements a Random Search-based hyperparameter-tuning strategy to solve the "LunarLander-v3" environment from Gynasium. It selects best 15 configurations yielded +240 rewards and performs comparative analysis on them.
 
-<p align="center>
+<p align="center">
   <img src="lunar_lander_trained.gif" alt="GIF representing LunarLander landing">
 </p> 
 

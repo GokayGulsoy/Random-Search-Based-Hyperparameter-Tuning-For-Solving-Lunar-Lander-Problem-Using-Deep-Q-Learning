@@ -21,7 +21,7 @@ This project implements a Random Search-based hyperparameter-tuning strategy to 
   - [Hyperparameters Used In Random Search](#hyperparameters-used-in-random-search)
   - [Hyperparameters Not Used In Random Search](#hyperparameters-not-used-in-random-search)
   - [Training Details](#training-details)
-  - [Experimental Results](#results)
+  - [Experimental Results](#experimental-results)
   - [Research Paper](url_to_reserach_parper)
 
 

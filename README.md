@@ -97,9 +97,17 @@ Running tune.py creates model files for the runs which surpasses score of 240 an
 
 To test the trained model, set the model path for the chosen model that exceeds 240 reward under the model directory and hidden_size shold match the hidden_layer selected for the specific run which is logged to termial after running `tune.py` for code line `record_agent_solution(model_path="models/tuning_trial_3.pth", hidden_size=128)` located at the bottom of the `inference.py`. This logs the inference score to terminal and generate a landing simulation video under the videos directory.
 
+```bash
+python inference.py
+```
+
 ## Plotting Graphs for Selected Runs
 
 To visualize the reward and loss as graphs, choose the `.npy` file created under the scores directory after running `tune.py`. Then, provide the `plot_training_results("tuning_trial_{trial_number}")` code line located at the bottom of the `graph.py` with the name of the `{tuning_trial_num}.npy` score file excluding `.npy` extension, that will generate graphs showing how reward and loss changed over the episodes for that run under the `solved_model_plots` directory.  
+
+```bash
+python graph.py
+```
 
 ## Hyperparameters Used In Random Search
 

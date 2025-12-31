@@ -132,4 +132,4 @@ To visualize the reward and loss as graphs, choose the `.npy` file created under
 
 ## Research Paper
 
-Paper for project can be found here: [Research Paper](CENG567_Project_Report_IEEE_Paper.pdf)
+Paper for project can be found here: [Research Paper](./CENG567_Project_Report_IEEE_Paper.pdf)

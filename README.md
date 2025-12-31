@@ -38,7 +38,7 @@ Ensure you have Python installed. Project is tested with Python version 3.11.6, 
 ```bash
 # Clone the repository
 git clone https://github.com/GokayGulsoy/Random-Search-Based-Hyperparameter-Tuning-For-Solving-Lunar-Lander-Problem-Using-Deep-Q-Learning.git
-cd lunar-lander-project
+cd Reinforcement\ Learning\ Project
 
 # Create a virtual environment 
 python -m venv venv

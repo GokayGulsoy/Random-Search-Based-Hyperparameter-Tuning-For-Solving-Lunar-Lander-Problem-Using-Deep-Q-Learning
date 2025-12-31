@@ -1,4 +1,4 @@
-# Random-Search-Based-Hyperparameter-Tuning-For-Solving-Lunar-Lander-Problem-Using-Deep-Q-Learning
+# Random Search-Based Hyperparameter-Tuning For Solving Lunar Lander Problem Using Deep-Q-Learning
 
 This project implements a Random Search-based hyperparameter-tuning strategy to solve the "LunarLander-v3" environment from Gynasium. It selects best 15 configurations yielded +240 rewards and performs comparative analysis on them.
 
@@ -21,7 +21,7 @@ This project implements a Random Search-based hyperparameter-tuning strategy to 
   - [Hyperparameters Used In Random Search](#hyperparameters-used-in-random-search)
   - [Hyperparameters Not Used In Random Search](#hyperparameters-not-used-in-random-search)
   - [Training Details](#training-details)
-  - [Results](#results)
+  - [Experimental Results](#results)
   - [Research Paper](url_to_reserach_parper)
 
 
